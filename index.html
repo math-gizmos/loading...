@@ -4,7 +4,11 @@
     <link rel="icon" href="https://github.com/math-gizmos/loading.../blob/main/loading.gif" type="image/gif" />
   </head>
 <script>
-alert("This is a game... your computer isn't really broken. :)");
+function myFunction() {
+  let text;
+  let person = prompt("This is a game. Your computer is not broken. Type YES if you understand.:", "Type here...");
+  if (person == null || person == "") {
+    text = "User cancelled the prompt.";
 </script>
      <style>
         body {
